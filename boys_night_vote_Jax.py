@@ -19,7 +19,7 @@ class JaxVotingSystem:
     def __init__(self):
         self.games: List[str] = []
         self.votes: List[List[int]] = []
-        self.voter_names: List[str] = ["Voter 1", "Voter 2", "Voter 3", "Voter 4", "Voter 5"]
+        self.voter_names: List[str] = ["Kade", "Jake", "Paden", "Austin", "Jaxson"]
         self.current_voter: int = 0
         self.ranked_games: List[Optional[str]] = []
         self.game_images: Dict[str, ImageTk.PhotoImage] = {}
